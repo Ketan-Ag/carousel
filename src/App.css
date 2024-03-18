@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bg-spiderman {
+  background-image: url("/src/assets/images/spiderman.webp");
+  background-position: top;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: white;
+  font-size: 15px !important;
+  font-weight: bold;
+}
